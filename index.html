@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="images/Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class=" navbar-nav mr-2">
+                <li class="item nav-item px-2">
+                    <img src="images/rss.png">
+                    <a class="nav-link" href="#">Feed</a>
+                </li>
+                <li class="item nav-item px-2">
+                    <img src="images/users.png">
+                    <a class="nav-link" href="#">Network</a>
+                </li>
+                <li class="item nav-item px-2">
+                    <img src="images/briefcase.png">
+                    <a class="nav-link" href="#">Jobs</a>
+                </li>
+                <li class="item nav-item px-2">
+                    <img src="images/message-square.png">
+                    <a class="nav-link" href="#">Chats</a>
+                </li>
+                <li class="item nav-item px-2">
+                    <img src="images/bell.png">
+                    <a class="nav-link" href="#">Notices</a>
+                </li>
+                <li class="form nav-item px-2 mt-3">
+                    <form class="form-inline my-2 my-lg-0 ml-5 ">
+                        <button class="btn my-2 my-sm-0" type="submit"><img src="images/search.png"></button>
+                        <input class="form-control mr-sm-2 ml-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </li>
+                <li class="user nav-item px-2">
+                    <img src="images/Rectangle.png">
+                    <div class="userData">
+                        <p>D.Kargaev</p>
+                        <p>112 views <span id="green">+30</span><img src="images/arrow.png"></p>
+                    </div>
+                </li>
+                <li class="other nav-item px-2">
+                    <img src="images/more-horizontal.png">
+                    <a class="nav-link" href="#">Other</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container white">
+        <div id="content" class="p-4 p-md-5 pt-5">
+            <h4 class="mb-4">New post </h4>
+            <div class="newpost">
+                <input class="form-control form-control-lg mr-3" type="text" placeholder="What's on your mind?">
+                <div class="img-form">
+                    <img class="formph" src="images/paperclip.png" alt="">
+                    <img class="formph" src="images/image.png" alt="">
+                    <img class="formph" src="images/film.png" alt="">
+                    <img class="formph" src="images/Send.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <h6 id="sort">SORT BY:<a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Date</a>
+            <ul class="collapse list-unstyled" id="pageSubmenu1">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Popular</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Like</a></li>
+            </ul>
+        </h6>
+        <div class="div-post white">
+            <div class="postData">
+                <img src="images/Rectangle.png">
+                <div>
+                    <h6>Dmitri Kargaev</h6>
+                    <p class="smallp">Front-End Developer</p>
+                </div>
+            </div>
+            <div class="post">
+                <h6>How your day going, guys?</h6>
+                <div>
+                    <img id="postph" src="images/Rectangle4.png">
+                </div>
+                <div class="btn-post">
+                    <button class="btn my-2 my-sm-0" type="submit"><img src="images/thumbs-up.png">35</button>
+                    <button class="btn my-2 my-sm-0" type="submit"><img src="images/message-circle.png">6</button>
+                    <button class="share btn my-2 my-sm-0" type="submit"><img src="images/share.png">Share</button>
+                </div>
+            </div>
+
+        </div>
+        <nav id="sidebar" class="white">
+            <div class="profile">
+                <img class="profileph" src="images/Rectangle1.png" alt="">
+                <img class="userph" src="images/Ellipse.png" alt="">
+                <h6>Dmitri Kargaev</h6>
+                <p>Freelance Front-End Developer</p>
+            </div>
+            <div class="newarcticle">
+                <button>Write New Article</button>
+            </div>
+            <div class="p-4 pt-5">
+                <h5>My Groups</h5>
+                <ul class="groupslist list-unstyled components mb-5">
+                    <li class="groupli">
+                        <img class="groupPh" src="images/Rectangle3.png" alt="">
+                        <h6>Moscow State Linguistical University</h6>
+                    </li>
+                    <li class="groupli">
+                        <img class="groupPh" src="images/Rectangle2.png" alt="">
+                        <h6>Digital freenacers group</h6>
+                    </li>
+
+                </ul>
+                <div class="mb-5">
+                    <h5>Followed Hashtags</h5>
+                    <div class="tagcloud">
+                        <a href="#" class="btn btn-light btn-sm">#work</a>
+                        <a href="#" class="btn btn-light btn-sm">#business</a>
+                        <a href="#" class="btn btn-light btn-sm">#hr</a>
+                        <a href="#" class="btn btn-light btn-sm">#userinterface</a>
+                        <a href="#" class="btn btn-light btn-sm">#digital</a>
+                        <a href="#" class="btn btn-light btn-sm">#ux</a>
+                        <a href="#" class="btn btn-light btn-sm">#ui</a>
+                        <a href="#" class="btn btn-light btn-sm">#freelance</a>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <h5>Newsletter</h5>
+                    <form action="#" class="subscribe-form">
+                        <div class="form-group d-flex">
+                            <div class="icon"><span class="icon-paper-plane"></span></div>
+                            <input type="text" class="form-control" placeholder="Enter Email Address">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
